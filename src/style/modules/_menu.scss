@@ -1,0 +1,27 @@
+nav {
+  padding: 20px 40px;
+  background-color: $secondary-background-color-darker;
+  & * {
+    color: set-text-color($primary-text-color);
+  }
+  .right {
+    margin-left: auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+    li {
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 30px;
+      &:hover a,
+      &:focus a,
+      &:hover i,
+      &:focus i {
+        color: rgb(104, 255, 53);
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  background-color: $secondary-background-color-darker;
+  p,
+  a,
+  i {
+    color: white;
+  }
+}

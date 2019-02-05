@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  background-color: white;
+  img {
+    width: 100%;
+    opacity: 0.4;
+  }
+  .text-container {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@include mediaMd {
+  .hero {
+    .text-container {
+      top: 40%;
+    }
+  }
+}
+@include mediaLg {
+  .hero {
+    .text-container {
+      top: 30%;
+    }
+  }
+}
