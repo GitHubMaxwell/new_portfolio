@@ -17,17 +17,17 @@ export default function Footer() {
         </ul>
         <ul className="container">
           <li>
-            <a href="">
+            <a href="https://github.com/GitHubMaxwell" target="_blank">
               <i className="fab fa-github" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.linkedin.com/in/maxwellrediker/" target="_blank">
               <i className="fab fa-linkedin" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="mailto:maxwell.rediker@gmail.com">
               <i className="fas fa-envelope" />
             </a>
           </li>
