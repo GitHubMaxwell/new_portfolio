@@ -6,10 +6,12 @@ export default function Home() {
       <img src={HeroImg} alt="hero image" />
       <div className="container text-container">
         <h1>
-          Hello! My name is <span>Max Rediker.</span>
+          Hello! My name is <span className="cursive">Max Rediker.</span>
           <br /> I am a Software Developer.
         </h1>
-        <button>My Work</button>
+        <a href="#portfolio" className="container btn-hero">
+          MY WORK
+        </a>
       </div>
     </section>
   );

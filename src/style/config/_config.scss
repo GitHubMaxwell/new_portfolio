@@ -13,6 +13,7 @@ $primary-positive-cta-color: #1da362;
 $secondary-positive-cta-color: #3e85ca;
 $negative-cta-color: #ca3b33;
 $undo-cta-color: #9b3eca;
+$hover-cta-color: rgb(187, 0, 150);
 
 // Dynamically Set Color (if needed)
 @function set-text-color($color) {

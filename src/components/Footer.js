@@ -3,7 +3,6 @@ export default function Footer() {
   return (
     <Fragment>
       <footer className="container footer-container">
-        <p>&copy; 2019 Maxwell Rediker</p>
         <ul className="container">
           <li>
             <a href="#about">About</a>
@@ -32,6 +31,7 @@ export default function Footer() {
             </a>
           </li>
         </ul>
+        <p>&copy; 2019 Maxwell Rediker</p>
       </footer>
     </Fragment>
   );

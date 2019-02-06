@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
     return (
-      <section className="container portfolio-container">
+      <section className="container portfolio-container" id="portfolio">
         <ul className="container portfolio-list">
-          <li className="portfolio-item flex-item">
+          <li className="portfolio-item shadow-light flex-item">
             <div className="portfolio-image">
               <img src="https://picsum.photos/200/150" alt="pic" />
             </div>
@@ -19,7 +19,7 @@ export default class Portfolio extends Component {
               <i className="fab fa-github" />
             </a>
           </li>
-          <li className="portfolio-item flex-item">
+          <li className="portfolio-item shadow-light flex-item">
             <div className="portfolio-image">
               <img src="https://picsum.photos/200/150" alt="pic" />
             </div>
@@ -33,7 +33,7 @@ export default class Portfolio extends Component {
               <i className="fab fa-github" />
             </a>
           </li>
-          <li className="portfolio-item flex-item">
+          <li className="portfolio-item shadow-light flex-item">
             <div className="portfolio-image">
               <img src="https://picsum.photos/200/150" alt="pic" />
             </div>

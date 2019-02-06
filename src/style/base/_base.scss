@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 250ms;
 }
 
 img {
@@ -11,21 +12,9 @@ img {
 
 body {
   background: $primary-background-color;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Avenir', helvetica, san-serif;
   line-height: 2em;
 }
-
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6,
-// p,
-// a,
-// span {
-//   color: $primary-text-color;
-// }
 
 h2 {
   font-size: 16;

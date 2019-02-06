@@ -5,7 +5,7 @@ export default class Menu extends Component {
     return (
       <header>
         <nav className="container">
-          <h1>Max R</h1>
+          <h1 className="cursive">Max Rediker</h1>
           <ul className="container right">
             <li className="container">
               <i className="far fa-smile" />

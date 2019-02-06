@@ -13,11 +13,11 @@ export default class App extends Component {
       <Fragment>
         <Menu />
         <Home />
-        <SectionDivider />
+        <SectionDivider id="about" />
         <About />
-        <SectionDivider />
+        <SectionDivider id="portfolio" />
         <Portfolio />
-        <SectionDivider />
+        <SectionDivider id="contact" />
         <Contact />
         <Footer />
       </Fragment>

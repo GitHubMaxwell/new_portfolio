@@ -4,7 +4,7 @@ button {
   border: none;
   border-radius: 20px;
   min-width: 65px;
-  max-width: 80px;
+  // max-width: 80px;
   &:hover,
   &:focus {
     color: set-text-color($primary-text-color);

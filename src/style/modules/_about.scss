@@ -10,10 +10,15 @@
       margin: 0 2em;
       flex-direction: column;
       text-align: center;
+      margin-bottom: 2em;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
       i {
         font-size: 3em;
-        // background-image: linear-gradient(to top right, red, rgb(255, 0, 132));
         border-radius: 50%;
+        color: $hover-cta-color;
+        margin-bottom: 0.5em;
       }
     }
   }
@@ -43,7 +48,7 @@
         margin-left: 1em;
         li {
           margin-right: 2em;
-          color: rgb(255, 0, 132);
+          color: rgb(213, 0, 170);
         }
       }
     }
@@ -52,6 +57,9 @@
     padding: 4em 6em;
     .about-threeup-list {
       flex-direction: row;
+      .about-threeup-item {
+        margin-bottom: 0;
+      }
     }
     .about-feature {
       flex-direction: row;

@@ -1,63 +1,16 @@
 .contact-container {
-  // padding: 4em 6em;
-  padding: 2em;
-  flex-direction: column;
+  padding: 4em 2em;
   justify-content: center;
-  .contact-text,
-  form {
-    padding: 2em;
-  }
   .contact-text {
+    padding: 1em;
     color: white;
-    background: rgb(235, 34, 81);
-    border-radius: 10px 10px 0 0;
-  }
-  form {
-    border-radius: 0 0 10px 10px;
-    flex-direction: column;
-    background-color: $secondary-background-color-darker;
-    transition: all 200ms;
-    textarea,
-    input {
-      border: none;
-      border-radius: 10px;
-      padding: 1em;
-      margin-bottom: 2em;
-      width: 100%;
+    background: rgb(143, 0, 115);
+    border-radius: 10px;
+    i {
+      margin-right: 1em;
     }
-    input {
-      padding-left: 3.5em;
-      height: 40px;
-      // width: 100%;
-    }
-    textarea {
-      resize: none;
-      text-indent: 2em;
-    }
-    .form-input-container {
-      position: relative;
-      i {
-        position: absolute;
-        top: 0.7em;
-        left: 0.7em;
-      }
-    }
-  }
-}
-// @include mediaTablet {
-//   .contact-container {
-//     flex-direction: row;
-//   }
-// }
-@include mediaMd {
-  .contact-container {
-    padding: 4em 6em;
-    flex-direction: row;
-    .contact-text {
-      border-radius: 10px 0 0 10px;
-    }
-    form {
-      border-radius: 0 10px 10px 0;
+    @include mediaTablet {
+      padding: 3em;
     }
   }
 }
